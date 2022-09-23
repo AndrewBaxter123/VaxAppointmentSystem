@@ -1,0 +1,11 @@
+<object-stream>
+  <sample.Patient>
+    <name>DEMO</name>
+    <ppsNumber>2233445AA</ppsNumber>
+    <email>demo@gmail.com</email>
+    <eircode>C915656</eircode>
+    <dateOfBirth>2015-11-15</dateOfBirth>
+    <phoneNumber>0871612534</phoneNumber>
+    <wheelchairUser>false</wheelchairUser>
+  </sample.Patient>
+</object-stream>

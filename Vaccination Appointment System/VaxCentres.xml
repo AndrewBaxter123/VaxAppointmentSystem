@@ -1,0 +1,13 @@
+<object-stream>
+  <sample.VaxCentre>
+    <headBooth>
+      <boothId>T5</boothId>
+      <floorLevel>1</floorLevel>
+      <wheelchairAccess>false</wheelchairAccess>
+    </headBooth>
+    <name>demo</name>
+    <address>WIT Arena b</address>
+    <parkingSpaces>200</parkingSpaces>
+    <eircode>X916565</eircode>
+  </sample.VaxCentre>
+</object-stream>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="tabTwoPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="664.0" prefWidth="994.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.TabTwoController">
+   <children>
+      <ListView fx:id="PatientList" layoutX="27.0" layoutY="41.0" onMousePressed="#findPatientRecord" prefHeight="278.0" prefWidth="859.0" />
+      <Button fx:id="btnAddPatient" layoutX="896.0" layoutY="208.0" mnemonicParsing="false" onAction="#addPatientButton" text="Add" />
+      <Button fx:id="btnEditPatient" layoutX="896.0" layoutY="246.0" mnemonicParsing="false" onAction="#editPatientButton" text="Edit" />
+      <Button fx:id="btnDeletePatient" layoutX="896.0" layoutY="281.0" mnemonicParsing="false" onAction="#deletePatientButton" text="Delete" />
+      <TextField fx:id="patientNameField" layoutX="23.0" layoutY="343.0" prefHeight="26.0" prefWidth="100.0" promptText="Enter Name" />
+      <TextField fx:id="emailField" layoutX="251.0" layoutY="343.0" prefHeight="26.0" prefWidth="100.0" promptText="Email Address" />
+      <TextField fx:id="phoneNumField" layoutX="476.0" layoutY="343.0" prefHeight="26.0" prefWidth="100.0" promptText="Phone Number" />
+      <TextField fx:id="ppsNumField" layoutX="136.0" layoutY="343.0" prefHeight="26.0" prefWidth="100.0" promptText="PPS Number" />
+      <TextField fx:id="eircodePatientField" layoutX="359.0" layoutY="343.0" prefHeight="26.0" prefWidth="100.0" promptText="Eircode" />
+      <DatePicker fx:id="DOBPicker" layoutX="591.0" layoutY="343.0" prefHeight="26.0" prefWidth="100.0" promptText="DOB" />
+      <CheckBox fx:id="checkBoxWheelChairUser" layoutX="713.0" layoutY="348.0" mnemonicParsing="false" text="Wheelchair User" />
+      <ListView fx:id="PatientVaxRecordList" layoutX="19.0" layoutY="437.0" prefHeight="166.0" prefWidth="843.0" />
+   </children>
+</AnchorPane>
